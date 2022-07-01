@@ -6,4 +6,9 @@
 .hero-left{
     padding: 2rem;
     padding-top: 1.5rem;
+    flex: 3;
+}
+
+.hero-right{
+    flex: 1;
 }
