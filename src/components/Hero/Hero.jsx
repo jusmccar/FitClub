@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-text">
                     <div>
-                        <span>shape </span>
+                        <span className="stroke-text">shape </span>
                         <span>your</span>
                     </div>
                     <div>
