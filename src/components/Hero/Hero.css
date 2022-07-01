@@ -29,3 +29,17 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+.best-ad>span{
+    z-index: 2;
+}
+
+.best-ad>div{
+    position: absolute;
+    background-color: orange;
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
