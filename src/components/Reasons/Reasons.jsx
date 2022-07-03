@@ -11,7 +11,7 @@ import nike from "../../assets/nike.png";
 
 const Reasons = () => {
     return (
-        <div className="Reasons" id="reasons">
+        <div className="reasons" id="reasons">
             <div className="reasons-left">
                 <img src={image1} alt="" />
                 <img src={image2} alt="" />
