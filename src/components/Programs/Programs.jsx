@@ -25,7 +25,7 @@ const Programs = () => {
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Programs;
