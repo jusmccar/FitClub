@@ -81,3 +81,17 @@
 .plan-card:nth-of-type(2)>.see-more>button {
     color: var(--orange);
 }
+
+.plans-blur-left {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+
+.plans-blur-right {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
