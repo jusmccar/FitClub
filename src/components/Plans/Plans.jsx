@@ -6,7 +6,7 @@ import "./Plans.css";
 const Plans = () => {
     return (
         <div className="plans">
-            <div className="programs-header" id="plans-header">
+            <div className="programs-header plans-header">
                 <span className="stroke-text">READY TO START</span>
                 <span>YOUR JOURNEY</span>
                 <span className="stroke-text">NOW WITH US</span>

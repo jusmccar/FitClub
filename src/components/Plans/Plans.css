@@ -7,7 +7,7 @@
     position: relative;
 }
 
-#plans-header {
+.plans-header {
     gap: 2rem;
 }
 
