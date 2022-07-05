@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-scroll";
 import Header from "../Header/Header";
 import "./Hero.css";
 import hero_image from "../../assets/hero_image.png";
@@ -57,7 +58,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-                <button className="btn">Join Now</button>
+                <button className="btn"><Link to="join" spy={true} smooth={true}>
+                    Join Now
+                </Link></button>
                 <motion.div
                     initial={{right: "1rem"}}
                     whileInView={{right: "4rem"}}
