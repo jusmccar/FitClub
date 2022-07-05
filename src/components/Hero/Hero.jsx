@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from 'react-countup';
 import {Link} from "react-scroll";
 import Header from "../Header/Header";
 import "./Hero.css";
@@ -40,15 +41,21 @@ const Hero = () => {
                 </div>
                 <div className="figures">
                     <div>
-                        <span>+240</span>
+                        <span>
+                            <CountUp start={200} end={240} duration={3} prefix="+"/>
+                        </span>
                         <span>expert coaches</span>
                     </div>
                     <div>
-                        <span>+999</span>
+                        <span>
+                            <CountUp start={900} end={999} duration={3} prefix="+"/>
+                        </span>
                         <span>members joined</span>
                     </div>
                     <div>
-                        <span>+69</span>
+                        <span>
+                            <CountUp start={50} end={69} duration={3} prefix="+"/>
+                        </span>
                         <span>fitness programs</span>
                     </div>
                 </div>
