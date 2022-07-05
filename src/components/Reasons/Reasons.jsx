@@ -19,7 +19,7 @@ const Reasons = () => {
                 <img src={image4} alt="" />
             </div>
             <div className="reasons-right">
-                <span className="some-reasons">some reasons</span>
+                <span className="some-reasons">reasons to join</span>
                 <div>
                     <span className="stroke-text">why </span>
                     <span>choose us?</span>

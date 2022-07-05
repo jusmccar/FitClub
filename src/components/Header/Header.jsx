@@ -16,7 +16,7 @@ const Header = () => {
                     Programs
                 </Link></li>
                 <li><Link to="reasons" spy={true} smooth={true}>
-                    About Us
+                    Reasons
                 </Link></li>
                 <li><Link to="plans" spy={true} smooth={true}>
                     Plans
